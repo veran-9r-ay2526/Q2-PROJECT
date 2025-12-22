@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('Gill Sans.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.nav-link {
+  color: white;
+  font-size: 15px;
+  margin: 0 8px;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #003f7d;
+}
+
+.nav-link:hover {
+  background-color: #5ea5fc;
+  color: #003f7d;
+  border-radius: 40px;
+}
+
+.portal-btn {
+  background-color: #003f7d;
+  color: white;
+  border-radius: 30px;
+  padding: 20px 35px;
+  font-size: 16px;
+}
+
+.portal-btn:hover {
+  background-color: #002b57;
+}
+
+
+.header-line {
+  height: 10px;
+  background-color: #003f7d;
+}
+
+.contact-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0a4d8c;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-label span {
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.rounded-input {
+  border-radius: 999px;
+  padding: 14px 20px;
+}
+
+.rounded-textarea {
+  border-radius: 20px;
+}
+
+.rounded-input:focus,
+.rounded-textarea:focus {
+  box-shadow: none;
+  border-color: #0a4d8c;
+}
+
+.send-btn {
+  width: 100%;
+  background: #0a4d8c;
+  color: #fff;
+  border-radius: 999px;
+  padding: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  display: block;
+}
+
+.send-btn:hover {
+  background: #083b6c;
+}
+
+img {
+  border-radius: 100px;
+}
